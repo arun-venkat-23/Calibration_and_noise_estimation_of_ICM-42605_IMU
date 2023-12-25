@@ -40,8 +40,8 @@ All data were collected at room temperature of 24 degree Celcius (75F). The phon
 
 `a<sub>t</sub> = a<sub>l</sub> + a<sub>g</sub> + noise`
 
-a<sub>l</sub> - Linear acceleration (Zero) <br>
-a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
+> a<sub>l</sub> - Linear acceleration (Zero) <br>
+> a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
 
 *	Assume ax and ay are 0 m/s<sup>2</sup> because the phone is at rest without any motion.<br> 
   No linear acceleration. <br>
@@ -52,9 +52,9 @@ a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
 
  _w<sup>'</sup>_ = _w_ + bias + _n_ 
 
-_w<sup>'</sup>_ - actual value <br>
-_w_ = true value <br>
-_n_ - noise <br>
+> _w<sup>'</sup>_ - actual value <br>
+> _w_ = true value <br>
+> _n_ - noise <br>
 
 *	True value must be 0 since the phone (gyroscope sensor) does not undergo any change in orientation.
 *	The gyroscope data obtained from experiment must be equal to the sum of bias and noise.
