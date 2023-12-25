@@ -38,7 +38,7 @@ All data were collected at room temperature of 24 degree Celcius (75F). The phon
 
 #### Accelerometer
 
-`a<sub>t</sub> = a<sub>l</sub> + a<sub>g</sub> + noise` <br>
+a<sub>t</sub> = a<sub>l</sub> + a<sub>g</sub> + noise <br>
 
 a<sub>l</sub> - Linear acceleration (Zero) <br>
 a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
@@ -50,7 +50,7 @@ a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
 
 #### Gyroscope
 
-`_w<sup>'</sup>_ = _w_ + bias + _n_` 
+_w<sup>'</sup>_ = _w_ + bias + _n_
 
 _w<sup>'</sup>_ - actual value <br>
 _w_ = true value <br>
@@ -74,7 +74,7 @@ Gyroscope – All readings are in rad/s
 1.	Subtracted 9.81m/s<sup>2</sup> from the readings in the z direction and the found the corresponding noise.
 2.	All readings in x and y direction directly gives us the noise values.
 3.	Using least squares method <br>
-                   `y = x + _v_ `, <br> where y is the measured value, x is the true value and _v_ is the error.
+                   `y = x + *v* `, <br> where y is the measured value, x is the true value and _v_ is the error.
 4.	x is 9.81 m/s<sup>2</sup> while calculating noise in the z direction and 0 while calculating in the x and y directions. 
 5.	Found the RMS (or normal average) of the noise values.
 6.	Performed unit conversion and proceeded with the comparison of the values.
