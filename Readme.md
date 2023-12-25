@@ -38,7 +38,7 @@ All data were collected at room temperature of 24 degree Celcius (75F). The phon
 
 #### Accelerometer
 
-a <sub>t</sub> = a <sub>l</sub> + a <sub>g</sub> + noise 
+a<sub>t</sub> = a<sub>l</sub> + a<sub>g</sub> + noise 
 
 > a<sub>l</sub> - Linear acceleration (Zero) <br>
 > a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
