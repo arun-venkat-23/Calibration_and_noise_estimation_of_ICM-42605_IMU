@@ -38,7 +38,7 @@ All data were collected at room temperature of 24 degree Celcius (75F). The phon
 
 #### Accelerometer
 
-`a<sub>t</sub> = a<sub>l</sub> + a<sub>g</sub> + noise` <br>
+` a<sub> t </sub> = a<sub> l </sub> + a<sub> g </sub> + noise` <br>
 
 a<sub>l</sub> - Linear acceleration (Zero) <br>
 a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
@@ -50,7 +50,7 @@ a<sub>g</sub> - Acceleration due to graviy (Only in z-dirn) <br>
 
 #### Gyroscope
 
-`_w<sup>'</sup>_ = _w_ + bias + _n_` <br>
+` _w<sup>'</sup>_ = _w_ + bias + _n_ ` 
 
 _w<sup>'</sup>_ - actual value <br>
 _w_ = true value <br>
